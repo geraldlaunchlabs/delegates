@@ -15,6 +15,7 @@
 		607F03941D47584A0028550F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607F03921D47584A0028550F /* LaunchScreen.storyboard */; };
 		607F039F1D47584B0028550F /* DelegatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F039E1D47584B0028550F /* DelegatesTests.m */; };
 		607F03AA1D47584B0028550F /* DelegatesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F03A91D47584B0028550F /* DelegatesUITests.m */; };
+		607F03B91D475BC30028550F /* SampleProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F03B81D475BC30028550F /* SampleProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		607F03A51D47584B0028550F /* DelegatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607F03A91D47584B0028550F /* DelegatesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatesUITests.m; sourceTree = "<group>"; };
 		607F03AB1D47584B0028550F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607F03B71D475BC30028550F /* SampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
+		607F03B81D475BC30028550F /* SampleProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				607F03871D47584A0028550F /* AppDelegate.h */,
 				607F03881D47584A0028550F /* AppDelegate.m */,
+				607F03B71D475BC30028550F /* SampleProtocol.h */,
+				607F03B81D475BC30028550F /* SampleProtocol.m */,
 				607F038A1D47584A0028550F /* ViewController.h */,
 				607F038B1D47584A0028550F /* ViewController.m */,
 				607F038D1D47584A0028550F /* Main.storyboard */,
@@ -273,6 +278,7 @@
 				607F038C1D47584A0028550F /* ViewController.m in Sources */,
 				607F03891D47584A0028550F /* AppDelegate.m in Sources */,
 				607F03861D47584A0028550F /* main.m in Sources */,
+				607F03B91D475BC30028550F /* SampleProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Delegates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchlabs.Delegates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Delegates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchlabs.Delegates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
